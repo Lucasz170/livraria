@@ -1,0 +1,73 @@
+nav{
+    background-color: rgb(39, 85, 89);
+}
+
+nav > a{
+    color: #000;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-list ul{
+    display: flex;
+    align-items: center;
+    background: rgb(39, 85, 89);
+    height: 40px;
+    padding: 10px; 
+    border-radius: 40px;
+    justify-content: space-between;
+    list-style: none;
+}
+
+/*.search-txt{
+    border: none;
+    background: none;
+    outline: none;
+    padding: 0;
+    color: black;
+    font-size: 16px;
+    line-height: 40px;
+    width: 0;
+    transition: .7s;
+}
+
+.search-btn{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background: rgb(0,157,172);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .7s;
+}
+
+.nav-list ul:hover > .search-txt{
+    width: 240px;
+    padding: 0 6px;
+}
+
+.nav-list ul:hover > .search-btn{
+    background: white;
+    border-color: #0a1b2d;
+} */
+
+.nav-itens{
+    margin: 0 15px;
+    height: 52px;
+}
+
+.navbar a{
+    font-size: 30px;
+}
+.nav-lis ul li{
+    display: inline;
+    position: relative
+}
+
+#livraria{
+    color: #0a1b2d;
+}

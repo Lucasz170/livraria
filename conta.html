@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="conta.css">
+    <link rel="icon" href="./Imagens/pessoa.png">
+
+    <title>Conta</title>
+  </head>
+  <section class="area-login">
+    <div class="login">
+      <div>
+        <a href="index.html"><img src="./Imagens/logo1.png" alt=""></a>
+      </div>
+      
+      <form method="post">
+        <input type="text" name="name" placeholder="Email do Usuário" autofocus onkeyup="maiuscula(this)">
+        <input type="password" name="senha" placeholder="Senha Usuário" onkeyup="maiuscula(this)">
+      </form>
+      <div>
+        <a href="index.html"><button>ENVIAR</button></a>
+      </div>
+      <p>Ainda não tem uma conta?<a href="cadastro.html">Criar Conta</a></p>
+    </div>
+  </section>
+
+  <script src="app.js"></script>
+  </body>
+</html>

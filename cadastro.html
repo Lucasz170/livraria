@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="cadastro.css">
+    <link rel="icon" href="./Imagens/pessoa.png">
+
+    <title>Cadastro</title>
+  </head>
+  <section class="area-login">
+    <div class="login">
+      <div>
+        <a href="index.html"><img src="./Imagens/logo1.png" alt=""></a>
+      </div>
+      
+      <form method="post">
+        <input type="text" id="cad-nome" name="name" placeholder="Digite seu nome" maxlength="100" autofocus onkeyup="maiuscula(this)">
+        <input type="text" id="cad-email" name="email" placeholder="Digite seu email" maxlength="100" onkeyup="maiuscula(this)">
+        <input type="text" id="cad-cpf" name="cpf" placeholder="Digite seu cpf" maxlength="14" onkeyup="maiuscula(this)">
+        <input type="password" id="cad-senha" name="senha" placeholder="Digite sua senha" maxlength="50" onkeyup="maiuscula(this)">
+      </form>
+      <div>
+        <a  onclick="criar()"><button>ENVIAR</button></a>
+      </div>
+    </div>
+  </section>
+
+  <script src="app.js"></script>
+  </body>
+</html>
